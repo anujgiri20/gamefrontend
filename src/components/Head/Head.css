@@ -1,0 +1,24 @@
+.heading{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 0.049em;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.score{
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 1px 1px 20px white;
+    
+}
+
+@media only screen and (max-width:700px)
+{
+    .heading{
+     font-size: 1.7rem;
+    }
+
+   
+}
